@@ -1,0 +1,12 @@
+<div style="margin-top: 28px;" class="content-box" *ngFor="let restaurant of restaurants" >
+    <h2>{{restaurant.name}}</h2>
+    <p>{{restaurant.cuisine}}</p>
+    <h3>{{restaurant.address}}</h3>
+
+    <div class="buttons-container">
+      <a routerLink="/edit-restaurant/{{restaurant.id}}">
+        <button>Edit</button>
+      </a>
+    </div>
+
+</div>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\UmaMahesh_BackApp.props" />
+</Project>

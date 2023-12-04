@@ -1,0 +1,13 @@
+<div style="margin-top: 28px;" class="content-box">
+  <a routerLink="/listings">
+      <button>Back</button>
+  </a>
+  <h2>{{product.name}}</h2>
+  <p>{{product.color}}</p>
+  <p>${{product.price}}</p>
+  <p>{{product.size}}</p>
+
+  <a routerLink="/contact/{{product.id}}">
+      <button>Contact Seller</button>
+  </a>
+</div>

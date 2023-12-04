@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\UmaMahesh_BackApp.props" />
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33808.371
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmaMahesh_BackApp", "UmaMahesh_BackApp\UmaMahesh_BackApp.csproj", "{FC4574A6-EB02-42DC-8F0D-91B962047608}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC4574A6-EB02-42DC-8F0D-91B962047608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC4574A6-EB02-42DC-8F0D-91B962047608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC4574A6-EB02-42DC-8F0D-91B962047608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC4574A6-EB02-42DC-8F0D-91B962047608}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E5E30EE-117C-46D2-839A-5BCA7E846BAC}
+	EndGlobalSection
+EndGlobal

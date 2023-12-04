@@ -1,0 +1,11 @@
+<div style="margin-top: 28px" class="content-box">
+  <h2>Edit Listing</h2>
+  <app-listing-data-form
+  buttonText="Save Changes"
+  [currentName]="product.name"
+  [currentColor]="product.color"
+  [currentPrice]="product.price"
+  [currentSize]="product.size"
+  (onSubmit)="onSubmit($event)">
+  </app-listing-data-form>
+</div>

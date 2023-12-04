@@ -1,0 +1,23 @@
+<form (ngSubmit)="onSendMessage()">
+<div style="margin-top: 25px;" class="content-box" ng>
+  <h3>Send the Owner a message</h3>
+  <div>
+    <label>
+        Your email address:
+        <input name="toEmail" [(ngModel)]="toEmail" />
+    </label>
+  </div>
+  <div>
+    <label>
+      Type your message here:
+      <textarea
+                name="message"
+                rows="5"
+                cols="20"
+                [(ngModel)]="message">
+      </textarea>
+  </label>
+  </div>
+</div>
+<button style="margin-left: 50px;" type="submit">Send</button>
+</form>

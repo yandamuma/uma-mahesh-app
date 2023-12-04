@@ -1,0 +1,19 @@
+<div id = "layout">
+  <a routerLink="/listings">
+      <button id="products">Products</button>
+  </a>
+  <a routerLink="/restaurants" >
+    <button  id="restaurants">Restaurants</button>
+  </a>
+  <a routerLink="/my-listings">
+    <button id="my-listings-button">My Listings</button>
+  </a>
+  <a >
+    <button (click)="onSignOut()" id="sign-out">Sign Out</button>
+  </a>
+</div>
+
+
+
+<router-outlet></router-outlet>
+

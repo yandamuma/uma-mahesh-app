@@ -1,0 +1,24 @@
+<div>
+  <div style="margin-left: 26px;margin-top: 18px;">Page No
+    <select name="demo" id="#" (change)="onChange($event)">
+      <!-- <option selected="selected" value="1" >1</option> -->
+      <option *ngFor="let v of numbers" value="{{v+1}}">{{v+1}}</option>
+    </select>
+</div>
+  <div style="margin-top: 18px;" class="content-box" *ngFor="let product of products">
+    <a routerLink="/listings/{{product.id}}">
+    <h3>{{product.name}} - ${{product.price}}
+      <p style="float: right; margin-top: 0px; margin-right:5px">
+        {{product.color}}
+      </p>
+    </h3>
+
+    </a>
+
+  </div>
+</div>
+
+
+
+
+

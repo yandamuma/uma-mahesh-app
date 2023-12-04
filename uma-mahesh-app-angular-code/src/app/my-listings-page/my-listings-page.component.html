@@ -1,0 +1,26 @@
+
+<div style="margin-top: 28px;margin-left: 45px;" >
+  <a routerLink="/new-listing">
+    <button>New Listing</button>
+  </a>
+</div>
+
+  <div style="margin-top: 28px;" class="content-box" *ngFor="let listing of listings">
+
+  <h3>{{listing.name}}</h3>
+  <p>{{listing.color}}</p>
+  <p>${{listing.price}}</p>
+  <p>{{listing.size}}</p>
+
+<div class="buttons-container">
+  <a routerLink="/edit-listing/{{listing.id}}">
+    <button>Edit</button>
+  </a>
+
+  <button (click)="onDeleteClick(listing.id)" > Delete </button>
+</div>
+</div>
+
+
+
+
