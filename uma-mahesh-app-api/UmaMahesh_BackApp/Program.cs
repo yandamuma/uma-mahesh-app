@@ -1,4 +1,4 @@
-global using UmaMahesh_BackApp.Services.EmailService;
+global using UmaMahesh_BackApp.Features.Custom.Email;
 global using UmaMahesh_BackApp.Data;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
@@ -9,7 +9,7 @@ using Logger.Common.LoggerService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using UmaMahesh_BackApp.Exceptions;
+using UmaMahesh_BackApp.Exceptions.Global;
 
 
 var builder = WebApplication.CreateBuilder(args);
